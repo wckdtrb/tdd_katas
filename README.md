@@ -1,14 +1,14 @@
 # tdd_katas
 TDD Code Katas
 
-<h1> Kata 1 - String Calculator
-  source - https://osherove.com/tdd-kata-1/
+## Kata 1 - String Calculator
+source - Roy Osherove [Sring Calculator](https://osherove.com/tdd-kata-1/)
+
+## Kata 2 - Logger
+source - Roy Osherove [Interactions](https://osherove.com/tdd-kata-2/)
   
-<h1> Kata 2 - Logger
-  source - https://osherove.com/tdd-kata-2/
+## Kata 3 - Password Verifier
+soruce - Roy Osherove [Password Verifier](https://osherove.com/tdd-kata-3/)
   
-<h1> Kata 3 - Password Verifier
-  soruce - https://osherove.com/tdd-kata-3/
-  
-<h1> Kata 4 - Bowling Game
-  source - http://butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata
+## Kata 4 - Bowling Game
+source - Robert Martin [Bowling Kata](http://butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata)
