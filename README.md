@@ -18,3 +18,6 @@ source - Robert Martin [Prime Factors](http://butunclebob.com/ArticleS.UncleBob.
 
 ## Kata 6 - Fizz Buzz
 source - en.wikipedia [Fizz Buzz](https://en.wikipedia.org/wiki/Fizz_buzz)
+
+## Kata 7 - Anagrams
+source - Coding Dojo [Anagram](http://codekata.com/kata/kata06-anagrams/)
