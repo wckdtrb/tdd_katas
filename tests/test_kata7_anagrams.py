@@ -55,7 +55,7 @@ def test_solve_whole_file():
             wordlist.append(line)
 
     newlist = []
-    for textline in wordlist[1:]:
+    for textline in wordlist:
         newlist.extend(textline.split())
 
     matches = []
@@ -67,20 +67,20 @@ def test_solve_whole_file():
     assert len(matches) == 50
 
 # Speed Racer time, goal @ 1.8s
-def test_solve_whole_file_large():
-    wordlist = []
-    with open(f'{os.getcwd()}\\tests\\kata7_full_wordlist.txt', 'r') as f:
-        for line in f:
-            wordlist.append(line)
+# def test_solve_whole_file_large():
+#     wordlist = []
+#     with open(f'{os.getcwd()}\\tests\\kata7_full_wordlist.txt', 'r') as f:
+#         for line in f:
+#             wordlist.append(line)
 
-    newlist = []
-    for textline in wordlist[1:]:
-        newlist.extend(textline.split())
+#     newlist = []
+#     for textline in wordlist[1:]:
+#         newlist.extend(textline.split())
 
-    matches = []
-    for word in newlist:
-        for comparison in newlist:
-            if anagrams.solve(comparison, word):
-                matches.append((word, comparison))
+#     matches = []
+#     for word in newlist:
+#         for comparison in newlist:
+#             if anagrams.solve(comparison, word):
+#                 matches.append((word, comparison))
 
-    assert len(matches) == 20683
+#     assert len(matches) == 20683
