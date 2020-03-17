@@ -15,3 +15,6 @@ source - Robert Martin [Bowling Kata](http://butunclebob.com/ArticleS.UncleBob.T
 
 ## Kata 5 - Prime Factors
 source - Robert Martin [Prime Factors](http://butunclebob.com/ArticleS.UncleBob.ThePrimeFactorsKata)
+
+## Kata 6 - Fizz Buzz
+source - en.wikipedia [Fizz Buzz](https://en.wikipedia.org/wiki/Fizz_buzz)
